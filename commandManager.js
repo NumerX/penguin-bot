@@ -6,6 +6,7 @@
   const report = require('./commands/utils/report.js');
   const call = require('./commands/utils/call.js');
   const js = require('./commands/utils/js.js');
+  const help = require('./commands/help/help.js');
 /* ADMIN */
   const accept = require('./commands/admin/accept.js');
   const dev = require('./commands/admin/dev.js');
@@ -25,6 +26,7 @@ module.exports = {
   report: (message, bot, args) => report.command(message, bot, args),
   call: (message, bot) => call.command(message, bot),
   js: (message) => js.command(message),
+  help: (message) => help.command(message),
 
   // ADMIN
   accept: (message, bot) => accept.command(message, bot),

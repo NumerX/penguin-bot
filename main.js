@@ -68,6 +68,9 @@ bot.on("message", function(message) {
     case "ip":
       commands.ip(message);
       break;
+    case "help":
+      commands.help(message);
+      break;
     case "website":
       commands.website(message);
       break;
