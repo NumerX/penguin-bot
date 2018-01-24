@@ -1,6 +1,6 @@
 function call(message) {
  var channel = message.channel;
- channel.send("TEST")
+message.author.sendMessage("Help panel BETA \n Admin commands:\n.call Call an admin\n Utilites\n.rtd Random number beetween 1-6. ")
 }
 
 module.exports = {
